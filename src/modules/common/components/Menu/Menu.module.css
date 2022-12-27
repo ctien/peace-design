@@ -1,0 +1,8 @@
+h.root {
+  @apply w-fit right-0 h-full border absolute transition shadow-lg bg-white  border-red-500;
+  transition: all 1s;
+}
+
+.root.active {
+  @apply w-fit;
+}

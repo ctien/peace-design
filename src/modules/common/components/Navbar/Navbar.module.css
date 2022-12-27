@@ -1,0 +1,28 @@
+.root {
+  @apply flex justify-end;
+}
+
+.item {
+  @apply relative ml-4;
+}
+
+.item:hover .dropdown {
+  @apply block transition;
+}
+
+.link {
+  @apply flex items-center capitalize px-1 py-2 transition  hover:text-indigo-500;
+}
+
+.link.active,
+.item:hover .link {
+  @apply text-indigo-500;
+}
+
+.dropdown {
+  @apply w-fit border hidden absolute shadow-lg bg-white z-30;
+}
+
+.dropdownLink {
+  @apply whitespace-nowrap	hover:text-white transition py-1 px-2 block hover:bg-indigo-500;
+}

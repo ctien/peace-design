@@ -1,0 +1,27 @@
+.basic {
+  @apply bg-transparent border text-indigo-500 border-indigo-500 px-4 py-1;
+}
+
+.basic:hover {
+  @apply text-white bg-indigo-500;
+  transition: 0.3s all;
+}
+
+.stretch {
+  @apply w-full;
+}
+
+.danger {
+  @apply text-white bg-orange-500 hover:bg-orange-600 focus:ring-orange-300;
+}
+
+.red {
+  @apply text-white bg-red-500 hover:bg-red-600 focus:ring-red-300 border-red-500 border;
+}
+.root {
+  @apply focus:ring-4 font-medium text-sm px-3 py-2 focus:outline-none whitespace-nowrap;
+}
+
+.primary {
+  @apply text-white bg-indigo-600 hover:bg-indigo-500 focus:ring-indigo-300;
+}
