@@ -24,7 +24,7 @@ export const MenuItem: FC<MenuItemProps> = ({ href, subMenu, title }) => {
     <li className="border-b">
       <div className="flex w-full">
         <Link href={href}>
-          <a className="block flex-grow py-4 capitalize hover:text-indigo-500">
+          <a className="block flex-grow py-4 capitalize hover:text-blue-500">
             {title}&nbsp;
           </a>
         </Link>

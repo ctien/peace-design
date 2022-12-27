@@ -10,19 +10,18 @@ export default function Hero() {
       <div className="pt-24 pb-56 relative z-10">
         <div className="mx-auto text-center max-w-3xl">
           <h1 className="lg:text-7xl text-6xl font-bold mb-4 lg:leading-36">
-            Create{' '}
-            <span className="border-blue-700 border-4 inline-block px-6 py-2 bg-red-400 text-white">
-              beautiful
+            Let's{' '}
+            <span className="border-blue-700 border-4 inline-block px-12 py-2 bg-red-400 text-white">
+              trade
             </span>{' '}
-            templates in minutes
+            <br />
+            your Astra crypto
           </h1>
           <p className="my-8 text-xl text-gray-700 font-light">
-            {`Shuffle gives you 6,900+ fully responsive UI components to get you
-            started. You don't have to be a designer to create attractive
-            templates!`}
+            {`We process more than 600,000+ astra transactions every single day for our customers`}
           </p>
           <button className="bg-blue-600 hover:bg-blue-700 transition duration-100 px-8 text-lg py-4 font-semibold leading-none rounded-full text-white">
-            Try Demo
+            Transaction
           </button>
           <button className="ml-4 bg-white hover:bg-neutral-700 hover:text-white transition duration-300 px-8 text-lg py-4 font-semibold leading-none rounded-full shadow">
             Sign Up

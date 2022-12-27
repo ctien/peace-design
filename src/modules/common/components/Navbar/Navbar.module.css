@@ -11,12 +11,12 @@
 }
 
 .link {
-  @apply flex items-center capitalize px-1 py-2 transition  hover:text-indigo-500;
+  @apply flex items-center capitalize px-1 py-2 transition  hover:text-blue-500;
 }
 
 .link.active,
 .item:hover .link {
-  @apply text-indigo-500;
+  @apply text-blue-500;
 }
 
 .dropdown {
@@ -24,5 +24,5 @@
 }
 
 .dropdownLink {
-  @apply whitespace-nowrap	hover:text-white transition py-1 px-2 block hover:bg-indigo-500;
+  @apply whitespace-nowrap	hover:text-white transition py-1 px-2 block hover:bg-blue-500;
 }

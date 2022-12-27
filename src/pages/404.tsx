@@ -8,7 +8,7 @@ export default function PageNotFound() {
       <div className="text-center">
         <h1 className="my-16 text-6xl">Page Not Found</h1>
         <Link href="/">
-          <a className="bg-indigo-500 p-4 text-white hover:bg-indigo-600 transition-colors rounded">
+          <a className="bg-blue-500 p-4 text-white hover:bg-blue-600 transition-colors rounded">
             Back to Home
           </a>
         </Link>

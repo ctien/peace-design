@@ -11,7 +11,7 @@ export const NAVIGATION = [
     title: 'Services',
     href: '/services',
     subMenu: [
-      { title: 'Rút tiền từ Astra', href: '/' },
+      { title: 'Rút tiền từ Astra', href: '/sellastra' },
       { title: 'Mua Astra', href: '/' },
     ],
   },

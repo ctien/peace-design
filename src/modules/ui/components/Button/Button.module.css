@@ -1,9 +1,9 @@
 .basic {
-  @apply bg-transparent border text-indigo-500 border-indigo-500 px-4 py-1;
+  @apply bg-transparent border text-blue-500 border-blue-500 px-4 py-1;
 }
 
 .basic:hover {
-  @apply text-white bg-indigo-500;
+  @apply text-white bg-blue-500;
   transition: 0.3s all;
 }
 
@@ -23,5 +23,5 @@
 }
 
 .primary {
-  @apply text-white bg-indigo-600 hover:bg-indigo-500 focus:ring-indigo-300;
+  @apply text-white bg-blue-600 hover:bg-blue-500 focus:ring-blue-300;
 }
