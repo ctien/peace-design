@@ -10,7 +10,7 @@ export default function Login() {
 
   useEffect(() => {
     if (session?.user) {
-      router.back()
+      router.push('/dashboard')
     }
   }, [router, session])
 
@@ -25,7 +25,7 @@ export default function Login() {
         redirect: true,
         email,
         password,
-        callbackUrl: '/',
+        callbackUrl: '/dashboard',
       })
       if (result?.error) {
         console.log(result.error)
