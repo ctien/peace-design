@@ -87,7 +87,7 @@ export default function Section1() {
           </div>
           <div className="h-[500px]">
             <div className="w-full h-full relative">
-              <Image src={Section1Img} layout="intrinsic" />
+              <Image src={Section1Img} layout="intrinsic" alt="" />
             </div>
           </div>
         </div>
