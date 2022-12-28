@@ -38,7 +38,7 @@ export default function ServicesSection() {
               className="h-72 rounded-2xl shadow-xl overflow-hidden flex flex-col"
             >
               <div className="w-full h-full relative">
-                <Image src={image} layout="fill" />
+                <Image src={image} layout="fill" alt="" />
               </div>
               <Link href="">
                 <a className="text-center py-4 font-medium hover:text-blue-700">

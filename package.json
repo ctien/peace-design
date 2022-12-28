@@ -30,6 +30,7 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
     "@types/bcryptjs": "^2.4.2",
+    "@types/gtag.js": "^0.0.12",
     "@types/lodash": "^4.14.186",
     "@types/marked": "^4.0.7",
     "@types/node": "18.7.23",

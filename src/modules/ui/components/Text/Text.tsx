@@ -13,7 +13,7 @@ interface VariantInfo {
 const variants: Record<VariantName, VariantInfo> = {
   sectionTitle: {
     className:
-      'text-center text-orange-500 lg:text-4xl text-3xl font-semibold mb-16',
+      'text-center text-gray-900 lg:text-4xl text-3xl font-semibold mb-16',
     tagName: 'h3',
   },
   sectionTitle1: {
@@ -21,7 +21,7 @@ const variants: Record<VariantName, VariantInfo> = {
     tagName: 'h3',
   },
   sectionTitle2: {
-    className: 'font-medium py-2 px-4 bg-orange-500 w-fit text-white',
+    className: 'font-medium py-2 px-4 bg-gray-500 w-fit text-white',
     tagName: 'h3',
   },
   body: {

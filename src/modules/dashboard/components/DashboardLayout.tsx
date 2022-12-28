@@ -9,7 +9,7 @@ export default function DashboardLayout({ children }: FCProps) {
   const router = useRouter()
   useEffect(() => {
     !data?.user && router.push('/login')
-  }, [])
+  }, [data?.user, router])
 
   if (data?.user) {
     return (

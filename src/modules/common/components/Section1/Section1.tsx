@@ -61,7 +61,7 @@ export default function Section1() {
               style={{ borderRadius: '30% 10% 0% 10% ' }}
             />
             <div className="w-full h-full relative rounded-xl overflow-hidden">
-              <Image src={Section1Img} layout="fill" />
+              <Image src={Section1Img} layout="fill" alt="" />
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function Section1() {
           </div>
           <div className="h-[500px]">
             <div className="w-full h-full relative">
-              <Image src={Section1Img} layout="intrinsic" />
+              <Image src={Section1Img} layout="intrinsic" alt="" />
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Section1() {
           </div>
           <div className="h-[500px]">
             <div className="w-full h-full relative">
-              <Image src={Section1Img} layout="intrinsic" />
+              <Image src={Section1Img} layout="intrinsic" alt="" />
             </div>
           </div>
         </div>
