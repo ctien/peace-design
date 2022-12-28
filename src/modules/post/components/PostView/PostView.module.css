@@ -1,0 +1,40 @@
+.content {
+}
+
+.content h1 {
+  @apply text-3xl font-medium mb-4;
+  font-weight: 700;
+}
+
+.title {
+  @apply text-3xl font-medium mb-4;
+  font-weight: 700;
+}
+
+.content h2 {
+  @apply text-2xl;
+  line-height: 2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.content h3 {
+  @apply text-xl font-semibold mb-2 mt-4;
+}
+.content h4,
+.content h5 {
+  @apply mb-1 mt-3 text-xl font-medium;
+}
+.content p {
+  @apply mb-2;
+}
+
+.content ul {
+  @apply list-disc;
+}
+
+.content li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}

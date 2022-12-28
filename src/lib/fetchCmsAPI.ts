@@ -1,6 +1,5 @@
 const API_URL = 'https://graphql.datocms.com/'
-const API_TOKEN =
-  process.env.DATOCMS_READ_ONLY_API_TOKEN || 'f2ec71151cf58fe3dd8fbad53db60b'
+const API_TOKEN = process.env.DATOCMS_READ_ONLY_API_TOKEN
 
 export async function fetchCmsAPI(
   query: string,
