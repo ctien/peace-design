@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import React from 'react'
 
 export default function Gtag() {
   return (
-    <div>
+    <>
       <Head>
         <script
           async
@@ -18,6 +17,6 @@ export default function Gtag() {
           name="google-site-verification"
          />
       </Head>
-    </div>
+    </>
   )
 }
