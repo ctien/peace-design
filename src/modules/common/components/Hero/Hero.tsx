@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="pt-24 pb-56 relative z-10">
         <div className="mx-auto text-center max-w-3xl">
           <h1 className="lg:text-7xl text-6xl font-bold mb-4 lg:leading-36">
-            {`Let's`}
+            {`Let's `}
             <span className="border-blue-700 border-4 inline-block px-12 py-2 bg-red-400 text-white">
               trade
             </span>{' '}
